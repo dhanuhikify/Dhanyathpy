@@ -20,7 +20,7 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
   return (
     <nav className={`flex justify-between items-center w-full h-20 px-4 text-white fixed z-50 ${darkMode ? 'bg-gray-900' : 'bg-blue-600'} transition-colors duration-300`}>
       <div>
-        <h1 className="text-5xl font-signature ml-2 font-bold cursor-pointer hover:scale-105 duration-200">Dhany</h1>
+        <h1 className="text-5xl font-signature ml-2 font-bold cursor-pointer hover:scale-105 duration-200">Dhanyath P Y</h1>
       </div>
 
       <ul className="hidden md:flex items-center">
