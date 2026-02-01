@@ -2,6 +2,7 @@ import React from 'react';
 import { MdOutlineKeyboardArrowRight } from 'react-icons/md';
 import { motion } from 'framer-motion';
 import { FaLinkedin, FaGithub, FaInstagram, FaYoutube, FaEnvelope, FaWhatsapp } from 'react-icons/fa';
+import HeroImage from '../IMG_20250201_102827.jpg';
 
 const Home = ({ darkMode }) => {
   return (
@@ -88,7 +89,7 @@ const Home = ({ darkMode }) => {
             className="bg-gradient-to-tr from-cyan-500 to-blue-500 p-1 rounded-2xl shadow-2xl"
           >
             <img
-              src="src/IMG_20250201_102827.jpg"
+              src={HeroImage}
               alt="profile"
               className="rounded-2xl w-40 sm:w-48 md:w-56 lg:w-64 h-auto object-cover"
             />
