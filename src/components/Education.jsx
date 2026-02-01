@@ -15,7 +15,7 @@ const Education = ({ darkMode }) => {
       degree: "PU PCMB",
       institution: "St. Philomena Pre University College, Puttur",
       period: "2021 – 2023",
-      note: "Pre-Final Year",
+      note: "✅",
       imageSrc: "https://i.ytimg.com/vi/-j2Ss6SgQPU/maxresdefault.jpg",
     },
     {
@@ -23,7 +23,7 @@ const Education = ({ darkMode }) => {
       degree: "High School",
       institution: "SDM English Medium School, Dharmasthala",
       period: "2018 – 2021",
-      note: "Pre-Final Year",
+      note: "✅",
       imageSrc: "https://tse2.mm.bing.net/th/id/OIP.e9X1md3UR6vdHQDCByzZqQHaHa?pid=Api&P=0&h=180",
     },
     {
@@ -31,7 +31,7 @@ const Education = ({ darkMode }) => {
       degree: "5th - 7th",
       institution: "Government Higher Primary School Nidle",
       period: "2015 – 2018",
-      note: "Pre-Final Year",
+      note: "✅",
       imageSrc: "https://images.tv9kannada.com/wp-content/uploads/2024/05/karnataka-education-department.jpg?w=1280",
     },
     {
@@ -39,7 +39,7 @@ const Education = ({ darkMode }) => {
       degree: "1st - 5th",
       institution: "Government Higher Primary School Kokkada",
       period: "2011 – 2015",
-      note: "Pre-Final Year",
+      note: "✅",
       imageSrc: "https://images.tv9kannada.com/wp-content/uploads/2024/05/karnataka-education-department.jpg?w=1280",
     },
   ];
@@ -88,6 +88,60 @@ const Education = ({ darkMode }) => {
               </div>
             </div>
           ))}
+        </div>
+
+        <div className="pt-16 pb-8">
+            <p className="text-4xl font-bold inline border-b-4 border-gray-500">Extracurricular Activities</p>
+        </div>
+
+        <div className="grid grid-cols-1 gap-6">
+            <div className={`rounded-lg p-6 ${darkMode ? "bg-gray-900 shadow-gray-700" : "bg-gray-100 shadow-gray-300"} shadow-md`}>
+                <div className="flex items-center gap-4">
+                    <div className="w-24 h-24 rounded-md overflow-hidden shadow-md flex items-center justify-center bg-gray-300">
+                        <img src="https://i.pinimg.com/736x/53/c6/16/53c616f8bab3527052b597d697baf4d5.jpg" alt="NCC" className="w-full h-full object-cover" />
+                    </div>
+                    <div className="flex-1">
+                        <h3 className="text-2xl font-semibold">National Cadet Corps (NCC) - SDM</h3>
+                        <p className="mt-2 text-lg">5KAR Naval NCC Unit - KA/18/JD/N/152628</p>
+                        <div className="mt-3 flex items-center gap-4">
+                            <span className="px-3 py-1 rounded-full text-sm font-medium bg-blue-600 text-white">2018 – 2020</span>
+                            <span className="px-3 py-1 rounded-full text-sm font-medium bg-gray-600 text-white">A Certificate</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className={`rounded-lg p-6 ${darkMode ? "bg-gray-900 shadow-gray-700" : "bg-gray-100 shadow-gray-300"} shadow-md`}>
+                <div className="flex items-center gap-4">
+                    <div className="w-24 h-24 rounded-md overflow-hidden shadow-md flex items-center justify-center bg-gray-300">
+                         <img src="https://i.pinimg.com/736x/53/c6/16/53c616f8bab3527052b597d697baf4d5.jpg" alt="NCC" className="w-full h-full object-cover" />
+                    </div>
+                    <div className="flex-1">
+                        <h3 className="text-2xl font-semibold">National Cadet Corps (NCC) - SPC</h3>
+                        <p className="mt-2 text-lg">19 KAR Bn NCC - KA/21/SD/A/387294</p>
+                        <div className="mt-3 flex items-center gap-4">
+                            <span className="px-3 py-1 rounded-full text-sm font-medium bg-blue-600 text-white">2021 - 2023</span>
+                            <span className="px-3 py-1 rounded-full text-sm font-medium bg-gray-600 text-white">B Certificate</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className={`rounded-lg p-6 ${darkMode ? "bg-gray-900 shadow-gray-700" : "bg-gray-100 shadow-gray-300"} shadow-md`}>
+                <div className="flex items-center gap-4">
+                    <div className="w-24 h-24 rounded-md overflow-hidden shadow-md flex items-center justify-center bg-gray-300">
+                         <img src="https://i.pinimg.com/736x/53/c6/16/53c616f8bab3527052b597d697baf4d5.jpg" alt="NCC" className="w-full h-full object-cover" />
+                    </div>
+                    <div className="flex-1">
+                        <h3 className="text-2xl font-semibold">National Cadet Corps (NCC) - SPC</h3>
+                        <p className="mt-2 text-lg">19 KAR Bn NCC - KA/21/SD/A/387294</p>
+                        <div className="mt-3 flex items-center gap-4">
+                            <span className="px-3 py-1 rounded-full text-sm font-medium bg-blue-600 text-white">2023 - 2024</span>
+                            <span className="px-3 py-1 rounded-full text-sm font-medium bg-gray-600 text-white">C Certificate</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
       </div>
     </div>
