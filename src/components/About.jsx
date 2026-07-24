@@ -14,14 +14,14 @@ const About = ({ darkMode }) => {
         </div>
 
         <p className="text-xl mt-20">
-          I am a Pre-Final Year Computer Science Engineering student from Sahyadri College of Engineering and Management, Mangalore, Karnataka. I am passionate about technology and enjoy building modern, responsive web applications.
+          Final-year Computer Science student who enjoys building things end to end — from a clean UI down to the database. I work mainly in C, Java, SQL and JavaScript, and I've spent the last several months building web apps with the MERN stack and React.
         </p>
         <br />
         <p className="text-xl">
-          I have experience working with the MERN stack (MongoDB, Express, React, Node.js) and am also proficient in PHP and Laravel. I am a quick learner who loves exploring new technologies and improving my development skills.
+          I like figuring out how systems fit together, and most of what I know beyond the classroom has come from working on projects I actually cared about.
         </p>
         <p className="text-xl mt-20">
-          I also have a strong interest in business and stocks, which helps me think beyond coding and understand real-world problem-solving. My goal is to build scalable, efficient, and impactful digital solutions.
+          I also have a strong interest in business and the stock market, which helps me think beyond coding and understand real-world problem-solving. Looking for a role where I can keep learning while contributing from day one.
         </p>
       </div>
     </div>

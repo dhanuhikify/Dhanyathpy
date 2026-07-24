@@ -1,7 +1,7 @@
 import React from 'react';
 import { MdOutlineKeyboardArrowRight } from 'react-icons/md';
 import { motion } from 'framer-motion';
-import { FaLinkedin, FaGithub, FaInstagram, FaYoutube, FaEnvelope, FaWhatsapp } from 'react-icons/fa';
+import { FaLinkedin, FaGithub, FaInstagram, FaEnvelope, FaWhatsapp } from 'react-icons/fa';
 import HeroImage from '../IMG_20250201_102827.jpg';
 
 const Home = ({ darkMode }) => {
@@ -16,9 +16,9 @@ const Home = ({ darkMode }) => {
             initial={{ opacity: 0, x: -100 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
-            className={`text-4xl sm:text-7xl font-bold ${darkMode ? 'text-white' : 'text-gray-800'}`}
+            className={`text-4xl sm:text-5xl font-bold whitespace-nowrap ${darkMode ? 'text-white' : 'text-gray-800'}`}
           >
-            I'm Tech & Stock Market Enthusiast
+            Build - Learn - Invest - Grow
           </motion.h2>
           <motion.p 
              initial={{ opacity: 0, x: -100 }}
@@ -26,7 +26,7 @@ const Home = ({ darkMode }) => {
              transition={{ duration: 0.8, delay: 0.2 }}
             className={`text-gray-500 py-4 max-w-md ${darkMode ? 'text-gray-400' : 'text-gray-600'}`}
           >
-            I am a Pre-Final Year Computer Science Engineering student at Sahyadri College of Engineering and Management, Mangalore, with a strong interest in technology, business, and stock market investing.
+            I am a Final Year Computer Science Engineering student at Sahyadri College of Engineering and Management, Mangalore, with a strong interest in technology, business, and stock market investing.
           </motion.p>
 
           <motion.div
@@ -45,7 +45,7 @@ const Home = ({ darkMode }) => {
               </span>
             </a>
             <a
-              href="/resume.pdf"
+              href="src/DPY RESUME.pdf"
               download={true}
               className={`group w-fit px-6 py-3 my-2 flex items-center rounded-md border-2 cursor-pointer hover:scale-105 duration-300 ${darkMode ? 'text-white border-white hover:bg-white hover:text-black' : 'text-gray-800 border-gray-800 hover:bg-gray-800 hover:text-white'}`}
             >
@@ -68,9 +68,6 @@ const Home = ({ darkMode }) => {
             </a>
             <a href="mailto:dhanyathpy@gmail.com" className={`transition-colors ${darkMode ? 'hover:text-cyan-300 text-white' : 'hover:text-cyan-600 text-gray-800'}`}>
               <FaEnvelope size={28} />
-            </a>
-            <a href="https://youtube.com" target="_blank" rel="noreferrer" className={`transition-colors ${darkMode ? 'hover:text-red-500 text-white' : 'hover:text-red-600 text-gray-800'}`}>
-              <FaYoutube size={28} />
             </a>
           </div>
         </div>

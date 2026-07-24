@@ -5,59 +5,67 @@ const Projects = ({ darkMode }) => {
   const projects = [
     {
       id: 1,
-      title: "BookMyShow Clone",
-      description: "A clone of the popular movie ticket booking platform BookMyShow. Built with MERN stack.",
-      demoLink: "#",
-      codeLink: "https://github.com/dhanuhikify/BOOKMY-SHOW.git",
-      src: "https://inc42.com/wp-content/uploads/2019/07/bookmyshow-feature.jpg"
+      title: "DermaPaw Canine Skin Diseases Detector",
+      description: "Sustainable AI-Based Deep Learning Model for Automated Diagnosis of Canine Skin Diseases.",
+      demoLink: "https://github.com/dhanuhikify/mjr.git",
+      codeLink: "https://github.com/dhanuhikify/mjr.git",
+      src: "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=400&h=300&fit=crop"
     },
     {
       id: 2,
-      title: "Ideal Café App",
-      description: "A web application for a café to manage orders and menu. Features a user-friendly interface.",
-      demoLink: "#",
-      codeLink: "https://github.com/dhanuhikify/Ieal-Cafe.git",
-      src: "https://aroundmangalore.com/wp-content/uploads/2014/03/ideal_cafe_mangalore.jpg"
+      title: "Smart Sustainable Travel AI",
+      description: "AI-powered project promoting sustainable travel choices and eco-friendly routes.",
+      demoLink: "https://github.com/dhanuhikify/TripplanningusingAI-Minprjo.git",
+      codeLink: "https://github.com/dhanuhikify/TripplanningusingAI-Minprjo.git",
+      src: "https://econsultancy.imgix.net/content/uploads/2023/05/26132458/shutterstock_1832071024.jpg"
     },
     {
       id: 3,
-      title: "Medical Shop Management",
-      description: "System to manage inventory, sales, and billing for a medical shop. Efficient and secure.",
-      demoLink: "#",
-      codeLink: "https://github.com/dhanuhikify/Medical-shop.git",
-      src: "https://i.pinimg.com/originals/02/2e/96/022e9691c5ba65d23cbf27a53f83163e.jpg"
+      title: "Lab Equipment Manager",
+      description: "Developed a Lab Equipment Management System to track, manage, and maintain laboratory equipment efficiently.",
+      demoLink: "https://github.com/dhanuhikify/labmanagement-minprojdbms.git",
+      codeLink: "https://github.com/dhanuhikify/labmanagement-minprojdbms.git",
+      src: "https://thumbs.dreamstime.com/z/laboratory-equipment-lots-glass-filled-research-development-scientific-glassware-chemical-experiment-136831705.jpg"
     },
     {
       id: 4,
       title: "Sainik Sahayak",
       description: "Military Welfare Management System designed to assist soldiers and their families.",
-      demoLink: "#",
+      demoLink: "https://github.com/dhanuhikify/SAINIK-SAHAYAK-ss-24Hacthn-.git",
       codeLink: "https://github.com/dhanuhikify/SAINIK-SAHAYAK-ss-24Hacthn-.git",
       src: "https://indiandefencetimes.in/wp-content/uploads/2024/06/IMG_4155.jpeg"
     },
     {
       id: 5,
-      title: "Smart Sustainable Travel AI",
-      description: "AI-powered project promoting sustainable travel choices and eco-friendly routes.",
-      demoLink: "#",
-      codeLink: "https://github.com/dhanuhikify/TripplanningusingAI-Minprjo.git",
-      src: "https://econsultancy.imgix.net/content/uploads/2023/05/26132458/shutterstock_1832071024.jpg"
-    },
-    {
-      id: 6,
-      title: "Lab Equipment Manager",
-      description: "Developed a Lab Equipment Management System to track, manage, and maintain laboratory equipment efficiently.",
-      demoLink: "#",
-      codeLink: "https://github.com/dhanuhikify/labmanagement-minprojdbms.git",
-      src: "https://thumbs.dreamstime.com/z/laboratory-equipment-lots-glass-filled-research-development-scientific-glassware-chemical-experiment-136831705.jpg"
-    },
-    {
-      id: 7,
       title: "Eco Charge",
       description: "Solar powered EV vehicle charging station project focusing on sustainable energy solutions.",
       demoLink: "#",
       codeLink: "#",
       src: "https://tse1.mm.bing.net/th/id/OIP.ch4wcJYtxFkKXVwlOdLN0wHaFj?pid=Api&P=0&h=180"
+    },
+    {
+      id: 6,
+      title: "Medical Shop Management",
+      description: "System to manage inventory, sales, and billing for a medical shop. Efficient and secure.",
+      demoLink: "https://github.com/dhanuhikify/Medical-shop.git",
+      codeLink: "https://github.com/dhanuhikify/Medical-shop.git",
+      src: "https://i.pinimg.com/originals/02/2e/96/022e9691c5ba65d23cbf27a53f83163e.jpg"
+    },
+    {
+      id: 7,
+      title: "Ideal Cafe Web",
+      description: "A web application for a cafe to manage orders and menu. Features a user-friendly interface.",
+      demoLink: "https://github.com/dhanuhikify/Ieal-Cafe.git",
+      codeLink: "https://github.com/dhanuhikify/Ieal-Cafe.git",
+      src: "https://aroundmangalore.com/wp-content/uploads/2014/03/ideal_cafe_mangalore.jpg"
+    },
+    {
+      id: 8,
+      title: "BookMyShow Clone",
+      description: "A clone of the popular movie ticket booking platform BookMyShow. Built with MERN stack.",
+      demoLink: "https://github.com/dhanuhikify/BOOKMY-SHOW.git",
+      codeLink: "https://github.com/dhanuhikify/BOOKMY-SHOW.git",
+      src: "https://inc42.com/wp-content/uploads/2019/07/bookmyshow-feature.jpg"
     },
   ];
 

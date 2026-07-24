@@ -6,16 +6,16 @@ const Experience = ({ darkMode }) => {
         {
             id: 1,
             role: 'Full Stack Developer Intern',
-            company: ' WSA',
-            period: 'Sep 2025 - Nov 2025',
-            description: 'Working on developing web applications using MERN stack.',
+            company: 'WSA',
+            period: 'Sep 2025 – Nov 2025',
+            description: 'Building and maintaining web applications as part of a small team using the MERN stack.',
         },
         {
             id: 2,
             role: 'UI/UX Design Intern',
             company: 'Proxenix',
-            period: 'Oct 2025 - Dec 2025',
-            description: 'Designed intuitive, user-friendly interfaces and prototypes to improve user experience and visual appeal.',
+            period: 'Oct 2025 – Dec 2025',
+            description: 'Designed wireframes and prototypes in Figma, focusing on making interfaces simple and easy to use.',
         },
     ];
 
