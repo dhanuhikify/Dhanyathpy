@@ -45,7 +45,7 @@ const Home = ({ darkMode }) => {
               </span>
             </a>
             <a
-              href="src/DPY RESUME.pdf"
+              href="/DPY RESUME.pdf"
               download={true}
               className={`group w-fit px-6 py-3 my-2 flex items-center rounded-md border-2 cursor-pointer hover:scale-105 duration-300 ${darkMode ? 'text-white border-white hover:bg-white hover:text-black' : 'text-gray-800 border-gray-800 hover:bg-gray-800 hover:text-white'}`}
             >
